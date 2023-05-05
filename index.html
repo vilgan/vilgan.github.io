@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Email Sender</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="login-page">
+      <div class="form">
+        <h1>Welcome To Our Community</h1>
+        <h2>Please Login To Continue</h2>
+        <p>Feel Free To Send any Messages or Mails You Want and The Owner Of This Website Will Recieve Your Mails <br> <p style="font-weight: bold;">This website is completly secured and only controlled by the great master</p></p>
+        <form class="login-form" onsubmit="return false;">
+          <input type="text" placeholder="Username" required/>
+          <input type="password" placeholder="Password" required/>
+          <button>login</button>
+        </form>
+      </div>
+    </div>
+    
+    <div class="send-email-page hidden">
+      <div class="form">
+        <form class="send-email-form" onsubmit="return false;">
+          <input type="text" placeholder="To" required/>
+          <input type="text" placeholder="Subject" required/>
+          <textarea placeholder="Message" required></textarea>
+          <button>send</button>
+        </form>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
